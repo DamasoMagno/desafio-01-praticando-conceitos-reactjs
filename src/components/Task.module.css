@@ -1,0 +1,43 @@
+.task {
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: var(--gray-500);
+  display: flex;
+  justify-content: space-between;
+}
+
+.task + .task {
+  margin-top: 1rem;
+}
+
+.task div {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.task div svg {
+  color: var(--blue);
+}
+
+.text {
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.textMarked {
+  color: var(--gray-300);
+  font-size: 0.875rem;
+  text-decoration: line-through;
+  line-height: 1.4;
+}
+
+.task button {
+  background-color: transparent;
+  border: 0;
+  color: var(--gray-300);
+  font: 1.25rem;
+  line-height: 0;
+  cursor: pointer;
+}

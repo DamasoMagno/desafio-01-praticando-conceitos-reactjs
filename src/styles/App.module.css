@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: center;
+
+  padding: 4rem;
+  background-color: var(--gray-700);
+}
+
+.content {
+  max-width: 728px;
+  margin: -2rem auto 0;
+  padding: 0 1rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.taskList {
+  margin: 4rem 0 1rem;
+}
+
+.tasksResume {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.tasksResume div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: bold;
+}
+
+.tasksResume div:first-child {
+  color: var(--blue);
+}
+
+.tasksResume div:last-child {
+  color: var(--purple);
+}
+
+.tasksResume div span {
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+}
